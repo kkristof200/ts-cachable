@@ -21,6 +21,6 @@
     },
     "author": "Kristóf-Attila Kovács",
     "name": "kcachable",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Easily create cachable values of any type that can be saved/loaded at any times"
 }
