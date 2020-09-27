@@ -1,0 +1,26 @@
+{
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "prepare": "tsc",
+        "build": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kkristof200/ts-cachable"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "@types/node": "^14.11.2",
+        "syncpathutils": "^0.1.0",
+        "typescript": "^4.0.3"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "author": "Kristóf-Attila Kovács",
+    "name": "kcachable",
+    "version": "0.0.2",
+    "description": "Easily create cachable values of any type that can be saved/loaded at any times"
+}
